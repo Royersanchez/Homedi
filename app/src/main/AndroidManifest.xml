@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Homedi"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.homedi.politica" />
+
+        <activity android:name="com.example.homedi.Pantalladeincio" />
+
+        <activity android:name="com.example.homedi.dolores" />
+
+        <activity android:name="com.example.homedi.Bajardepeso" />
+
+        <activity android:name="com.example.homedi.Mascotas" />
+        <activity android:name="com.example.homedi.Cuidadopersonal" />
+
+        <activity android:name="com.example.homedi.Golpes" />
+
+        <activity android:name="com.example.homedi.golpes1" />
+
+        <activity android:name="com.example.homedi.Golpes2" />
+
+        <activity android:name="com.example.homedi.Mascotas1" />
+
+        <activity android:name="com.example.homedi.Mascotas2" />
+        <activity android:name="com.example.homedi.Peso1" />
+
+        <activity android:name="com.example.homedi.Peso2" />
+
+        <activity android:name="com.example.homedi.Cuidadopersonal1" />
+
+        <activity android:name="com.example.homedi.Cuidadopersonal2" />
+        <activity android:name="com.example.homedi.DolordeEstomago" />
+        <activity android:name="com.example.homedi.DolordeEstomago2" />
+
+    </application>
+
+</manifest>
